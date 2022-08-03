@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    }
+  .dark {
+      Background-color: black;
+      color: white
+  }
+  .light {
+      Background-color: white;
+      color: black;
+  }
+  #beer-header {
+    display: flex;
+    justify-content: center;
+    opacity: .8;
+    height: 7rem;
+    padding: 1rem;
+  }
+  #beer-header img {
+    height: 6rem;
+    width: auto;
+  }
+  #beer-collection {
+    margin: 2rem;
+  }
+  .card {
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 15rem;
+    height: 30rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    border-radius: 75px;
+  }
+  .card:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 12px 20px 0 #4BE0C7;
+    }
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+  .beer-avatar {
+    justify-self: center;
+    height: 12rem;
+    width: auto;
+  }
+  button {
+    position: relative;
+    background-color: #4BE0C7;
+    border: none;
+    border-radius: 8px;
+    height: 2rem;
+    width: max-content;
+    color: white;
+    font-size: 13px;
+    justify-self: center;
+  }
+  button:hover {
+    background-color: whitesmoke;
+    border: #4BE0C7 solid 1px;
+    color: #4BE0C7;
+  }
+  .container {
+    padding: 1rem;
+    width: stretch;
+    height: auto;
+    display: none;
+    background: #4BE0C7;
+    opacity: .8;
+  }
+  .add-beer-form {
+    width: 80%
+  }
+  .submit {
+    position: relative;
+    background-color: #050505;
+    border-radius: 5px;
+    height: 2rem;
+    width: max-content;
+    color: whitesmoke;
+    font-size: 18px;
+    justify-self: center;
+    font-family: monospace;
+    margin: 3px;
+  }
+  .submit:hover {
+    background-color: whitesmoke;
+    border: #4BE0C7 solid 1px;
+    color: #4BE0C7;
+  }
+  .input-text {
+    border-radius: 5px;
+    height: 2rem;
+    width: 60%;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 3px;
+  }

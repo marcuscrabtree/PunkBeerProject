@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>JaBroni Brewery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/539/539858.png">
+  <style>
+    p.ex1{
+      font-size: 30px;
+    }
+  </style>
+</head>
+<body class="light">
+  <button id = "dark-light"> Light / Dark Mode </button>
+  <div id="beer-header">
+    <img src="https://fontmeme.com/permalink/220802/cd537350c6632e421a4b588778e447dc.png" alt="beer-header" />
+  </div>
+  <div class="container">
+    <form style ="text-align:right" class="add-beer-form">
+      <h3>Have a beer you like? Add it here!</h3>
+      <input type="text" name="name" value="" placeholder="Enter a beer name..." class="input-text" />
+      <br />
+      <input type="text" name="tagline" value="" placeholder="Describe your beer..." class="input-text" />
+      <br />
+      <input type="text" name="abv" value="" placeholder="Alcohol by volume (ABV)..." class="input-text" />
+      <br />
+      <input type="text" name="image" value="" placeholder="Enter a beer image URL..." class="input-text" />
+      <br />
+      <input type="text" name="food_pairing" value="" placeholder="Food pairing recommendation..." class="input-text" />
+      <br />
+      <input type="submit" name="submit" value="Add a beer" class="submit" />
+    </form>
+  </div>
+  <p style="text-align:center" class="ex1">
+    Lets have a Brew!
+  </p>
+  <p style="text-align:center">
+    <button id="new-beer-btn"> Add a Brew ! </button>
+  </p>
+  <div id="beer-collection"></div>
+  <script type="text/javascript" defer src="index.js"></script>
+</body>
+</html>
