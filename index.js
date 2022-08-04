@@ -18,6 +18,7 @@ addBtn.addEventListener('click', () => {
     beerFormContainer.style.display = "none";
   }
 });
+
 document.querySelector('.add-beer-form').addEventListener('submit', createNewBeer);
 function createNewBeer(e) {
   e.preventDefault();
@@ -35,6 +36,7 @@ function createNewBeer(e) {
   })
     .then((res) => res.json())
     .then(renderBeer);
+    e.target.reset()
 }
 //fetch and add beers
 fetch(beerUrl)
@@ -83,12 +85,12 @@ darkLight.addEventListener("click", () => {
     document.getElementsByTagName('body')[0].className = "light"
   }
 })
-var age = prompt ('Please enter your age verification process');
-if(age < 21){
-  alert('Sorry you cant drink right now')
-  window.location.href = ("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-}
-else if(age >= 21){
-  alert(('Welcome you JaBroni'))
-  console.log(age)
-}
+// var age = prompt ('Please enter your age verification process');
+// if(age < 21){
+//   alert('Sorry you cant drink right now')
+//   window.location.href = ("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+// }
+// else if(age >= 21){
+//   alert(('Welcome you JaBroni'))
+//   console.log(age)
+// }
