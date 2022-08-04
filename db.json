@@ -16,6 +16,30 @@
       "abv": "4.2",
       "food_pairing": "Burgers, Wings, and Pizza",
       "id": "rFS814m"
+    },
+    {
+      "name": "Tomas Makaj",
+      "tagline": "Liquid Gold",
+      "image_url": "https://thefoodellers.com/wp-content/uploads/2017/02/Pint-of-Guinness-scaled.jpeg",
+      "abv": "4.6",
+      "food_pairing": "Burger",
+      "id": "taL0hid"
+    },
+    {
+      "name": "Tomas Makaj",
+      "tagline": "Liquid Gold",
+      "image_url": "https://thefoodellers.com/wp-content/uploads/2017/02/Pint-of-Guinness-scaled.jpeg",
+      "abv": "4.6",
+      "food_pairing": "Burger",
+      "id": "AodIVdN"
+    },
+    {
+      "name": "Guinness",
+      "tagline": "Perfect Pint",
+      "image_url": "https://thefoodellers.com/wp-content/uploads/2017/02/Pint-of-Guinness-scaled.jpeg",
+      "abv": "4.6",
+      "food_pairing": "Burger",
+      "id": "yJgb8hE"
     }
   ]
 }
