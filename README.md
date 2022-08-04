@@ -2,12 +2,15 @@ The JaBroni Brewery
 
 Project goal: create a version of Toy Tale with content displayed from the Punk API
 
+Trello Work flow
+
 
 <img width="815" alt="Screen Shot 2022-08-04 at 1 39 32 PM" src="https://user-images.githubusercontent.com/108154215/182915730-1ee950b9-170a-4cd7-87c3-5e8b62b3ae10.png">
 
 
-<img width="916" alt="Screen Shot 2022-08-04 at 1 37 53 PM" src="https://user-images.githubusercontent.com/108154215/182915763-f9373595-6d27-434c-ae37-8cd3c6f1a932.png">
 
+Figma Design
+<img width="916" alt="Screen Shot 2022-08-04 at 1 37 53 PM" src="https://user-images.githubusercontent.com/108154215/182915763-f9373595-6d27-434c-ae37-8cd3c6f1a932.png">
 
 
 
