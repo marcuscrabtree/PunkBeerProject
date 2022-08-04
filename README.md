@@ -48,9 +48,24 @@ The user can sumbit a beer of their choosing by clicking the "Add a Brew!" butto
 
 "Food pairing recommendation..."
 
+
+<img width="779" alt="Screen Shot 2022-08-04 at 1 43 45 PM" src="https://user-images.githubusercontent.com/108154215/182916497-f26e4d02-de82-4a0b-b7cc-352906a38b0c.png">
+
+
 We added a light and dark mode button for the user to toggle on the top left corner of the page.
 
+
+
+<img width="132" alt="Screen Shot 2022-08-04 at 1 43 33 PM" src="https://user-images.githubusercontent.com/108154215/182916550-af1186c4-0222-49bd-9569-e5121faf1b2c.png">
+
+
+
 We added a hover & shake feature to each card that is appended to the page.
+
+
+
+<img width="688" alt="Screen Shot 2022-08-04 at 1 44 32 PM" src="https://user-images.githubusercontent.com/108154215/182916571-cad2dcbd-5ce4-4c0d-a54f-acaff57419cc.png">
+
 
 We have linked are trello and wireframe below
 
